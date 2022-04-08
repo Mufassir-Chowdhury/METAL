@@ -6,8 +6,8 @@
 	<title>Home</title>
 </svelte:head>
 
-<section class="p-8 flex flex-col items-center divide-y-2">
-	<div class="w-2/3 flex justify-center p-8">
+<section class="py-8 flex flex-col items-center divide-y-2">
+	<div class="w-2/3 flex justify-center py-8">
 		<img src="group.jpg" alt="group">
 	</div>
 	<div class="text-center p-8">
