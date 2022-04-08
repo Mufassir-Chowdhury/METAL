@@ -2,7 +2,7 @@
 	import '../app.css';
 </script>
 
-<div class="w-screen h-20 flex px-10 border-b border-black items-center justify-between">
+<div class="w-screen h-20 flex font-light px-10 border-b border-black items-center justify-between">
 	<div class="flex space-x-6 items-center">
 		<a href="/research">
 			<div>Research</div>
