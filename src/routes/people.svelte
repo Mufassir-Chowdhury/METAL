@@ -34,9 +34,9 @@
         {
             'name': 'Irfan Nafiz Shahan',
             'speciality': 'Member, Unit A',
-            'about': 'I am enthusiastic, driven and conscientious about my responsibilities and yearn to use my knowledge to do whatever good I can do. Currently involved in multiple projects and responsibilities, including being a member of Unit M of NMOS Labs. I plan to conduct my thesis in Computer Architecture and Hardware Security.',
+            'about': 'I am an undergraduate student of Electrical and Electronic Engineering in Shahjalal University of Science and Technology. I am enthusiastic about multiple fields, driven and conscientious about my responsibilities and yearn to use my knowledge to do whatever good I can do. Currently involved in multiple projects and responsibilities, including being a part of Unit A of NMOSS Labs. I plan to conduct my thesis in Computer Architecture and Hardware Security.',
             'photo': 'irfan.jpg',
-            'interests': 'Micro-Architectural Security',
+            'interests': 'Micro-Architectural Security, Hardware Security, Computer Architecture, Cryptography',
             'linkedin': 'https://www.linkedin.com/in/irfannafizshahan/',
             'gmail': 'irfan55@student.sust.edu',
             'github': 'https://github.com/IrfanNafiz'
