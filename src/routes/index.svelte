@@ -11,60 +11,9 @@
 		<img src="group.jpg" alt="group">
 	</div>
 	<div class="text-center p-8">
-		<div>We're no strangers to love</div>
-		<div>You know the rules and so do I</div>
-		<div>A full commitment's what I'm thinking of</div>
-		<div>You wouldn't get this from any other guy</div>
-		<div>I just wanna tell you how I'm feeling</div>
-		<div>Gotta make you understand</div>
-		<div>Never gonna give you up</div>
-		<div>Never gonna let you down</div>
-		<div>Never gonna run around and desert you</div>
-		<div>Never gonna make you cry</div>
-		<div>Never gonna say goodbye</div>
-		<div>Never gonna tell a lie and hurt you</div>
-		<div>We've known each other for so long</div>
-		<div>Your heart's been aching but you're too shy to say it</div>
-		<div>Inside we both know what's been going on</div>
-		<div>We know the game and we're gonna play it</div>
-		<div>And if you ask me how I'm feeling</div>
-		<div>Don't tell me you're too blind to see</div>
-		<div>Never gonna give you up</div>
-		<div>Never gonna let you down</div>
-		<div>Never gonna run around and desert you</div>
-		<div>Never gonna make you cry</div>
-		<div>Never gonna say goodbye</div>
-		<div>Never gonna tell a lie and hurt you</div>
-		<div>Never gonna give you up</div>
-		<div>Never gonna let you down</div>
-		<div>Never gonna run around and desert you</div>
-		<div>Never gonna make you cry</div>
-		<div>Never gonna say goodbye</div>
-		<div>Never gonna tell a lie and hurt you</div>
-		<div>Never gonna give, never gonna give</div>
-		<div>(Give you up)</div>
-		<div>We've known each other for so long</div>
-		<div>Your heart's been aching but you're too shy to say it</div>
-		<div>Inside we both know what's been going on</div>
-		<div>We know the game and we're gonna play it</div>
-		<div>I just wanna tell you how I'm feeling</div>
-		<div>Gotta make you understand</div>
-		<div>Never gonna give you up</div>
-		<div>Never gonna let you down</div>
-		<div>Never gonna run around and desert you</div>
-		<div>Never gonna make you cry</div>
-		<div>Never gonna say goodbye</div>
-		<div>Never gonna tell a lie and hurt you</div>
-		<div>Never gonna give you up</div>
-		<div>Never gonna let you down</div>
-		<div>Never gonna run around and desert you</div>
-		<div>Never gonna make you cry</div>
-		<div>Never gonna say goodbye</div>
-		<div>Never gonna tell a lie and hurt you</div>
-		<div>Never gonna give you up</div>
-		<div>Never gonna let you down</div>
-		<div>Never gonna run around and desert you</div>
-		<div>Never gonna make you cry</div>
-		<div>Never gonna say goodbye</div>
+		<div class="text-4xl my-4 font-semibold">About Us</div>
+		We’re a group, enthusiastic about multiple fields, but focusing primarily on our common interest in security research. Security research is a niche subject not commonly pursued in Bangladesh, we plan to take it mainstream and conduct meaningful high quality projects and publications.
+If you’re interested in our work and want to collaborate with us feel free to email us at - irfannafizislive@gmail.com
+
 	</div>
 </section>
