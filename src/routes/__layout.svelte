@@ -14,8 +14,8 @@
 
 <div class="w-screen h-20 flex font-light px-10 border-b border-black items-center justify-between">
 	<div class="hidden md:flex space-x-6 items-center">
-		<a href="/research">
-			<div>Research</div>
+		<a href="/projects">
+			<div>Projects</div>
 		</a>
 		<a href="/publications">
 			<div>Publications</div>
@@ -57,8 +57,8 @@
 	<button class="w-full flex items-center" on:click={handleClick}>
 		<div class="w-full flex flex-col items-center text-center py-2">
 	
-			<a href="/research">
-				<div class="py-2">Research</div>
+			<a href="/projects">
+				<div class="py-2">Projects</div>
 			</a>
 			<a href="/publications">
 				<div class="py-2">Publications</div>
@@ -72,9 +72,17 @@
 			<a href="/teams">
 				<div class="py-2">Teams</div>
 			</a>
-			<a href="/contact">
-				<div class="py-2">Contact</div>
-			</a>
+			<div class="font-light">
+				<button on:click={() => handleToggleModal()}>Contact</button><Modal
+	  title="Contact us!"
+	  open={showModal}
+	  on:close={() => handleToggleModal()}
+	>
+	  <svelte:fragment slot="body">
+		If you’re interested in our work and want to collaborate with us feel free to email us at - <a href="mailto:irfannafizislive@gmail.com" class="text-blue-400">irfannafizislive@gmail.com</a>
+	  </svelte:fragment>
+	</Modal>
+	</div>
 		</div>
 	</button>
 { /if }
