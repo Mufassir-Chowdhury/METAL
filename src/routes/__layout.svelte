@@ -1,10 +1,15 @@
 <script>
 	import '../app.css';
+	import Modal from '../lib/Modal.svelte';
 	let menu = false;
 	function handleClick() {
 		menu = !menu;
 	}
-
+	
+	let showModal = false;
+	const handleToggleModal = () => {
+	  showModal = !showModal
+	}
 </script>
 
 <div class="w-screen h-20 flex font-light px-10 border-b border-black items-center justify-between">
@@ -30,9 +35,17 @@
 		<a href="/teams">
 			<div>Teams</div>
 		</a>
-		<a href="/contact">
-			<div>Contact</div>
-		</a>
+		<div class="font-light">
+			<button on:click={() => handleToggleModal()}>Contact</button><Modal
+  title="Contact us!"
+  open={showModal}
+  on:close={() => handleToggleModal()}
+>
+  <svelte:fragment slot="body">
+    If you’re interested in our work and want to collaborate with us feel free to email us at - <a href="mailto:irfannafizislive@gmail.com" class="text-blue-400">irfannafizislive@gmail.com</a>
+  </svelte:fragment>
+</Modal>
+</div>
 	</div>
 	<button class="md:hidden" on:click={handleClick}>
 		<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
