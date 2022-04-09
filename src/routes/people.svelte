@@ -35,7 +35,7 @@
             'name': 'Irfan Nafiz Shahan',
             'speciality': 'Member, Unit A',
             'about': 'I am an undergraduate student of Electrical and Electronic Engineering in Shahjalal University of Science and Technology. I am enthusiastic about multiple fields, driven and conscientious about my responsibilities and yearn to use my knowledge to do whatever good I can do. Currently involved in multiple projects and responsibilities, including being a part of Unit A of NMOSS Labs. I plan to conduct my thesis in Computer Architecture and Hardware Security.',
-            'photo': 'irfan.jpg',
+            'photo': 'irfan-2.jpg',
             'interests': 'Micro-Architectural Security, Hardware Security, Computer Architecture, Cryptography',
             'linkedin': 'https://www.linkedin.com/in/irfannafizshahan/',
             'gmail': 'irfan55@student.sust.edu',
