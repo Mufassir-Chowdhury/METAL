@@ -16,12 +16,13 @@
 			<div>Publications</div>
 		</a>
 	</div>			
-	<div class="font-bold text-2xl">
-		<a href="/">METAL</a>
+	<div class="font-bold text-2xl text-center">
+		<a href="/">NMOSS</a>
+		<div class="font-normal text-sm"><span class="font-bold">N</span>etworking, <span class="font-bold">M</span>icroarchitectural, <span class="font-bold">O</span>perating system <span class="font-bold">S</span>ecurity research group @ <span class="font-bold">S</span>UST</div>
 	</div>
 	<div class="hidden md:flex space-x-6 items-center">
 		<a href="/">
-			<div>About METAL</div>
+			<div>About NMOSS</div>
 		</a>
 		<a href="/people">
 			<div>People</div>
@@ -50,7 +51,7 @@
 				<div class="py-2">Publications</div>
 			</a>
 			<a href="/">
-				<div class="py-2">About METAL</div>
+				<div class="py-2">About NMOSS</div>
 			</a>
 			<a href="/people">
 				<div class="py-2">People</div>
@@ -69,5 +70,5 @@
 </main>
 
 <footer class="p-8 w-full justify-center flex">
-	@2022 METAL LABORATORY <span class="mx-2">|</span> <a href="https://sust.edu/"> SUST</a>
+	@2022 NMOSS Research Group
 </footer>
