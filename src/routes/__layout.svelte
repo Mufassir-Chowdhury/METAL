@@ -1,6 +1,8 @@
 <script>
 	import '../app.css';
 	import Modal from '../lib/Modal.svelte';
+    import { page } from '$app/stores';
+	let param = $page.url.pathname;
 	let menu = false;
 	function handleClick() {
 		menu = !menu;
@@ -10,42 +12,59 @@
 	const handleToggleModal = () => {
 	  showModal = !showModal
 	}
+	let showProjectsModal = false;
+	const handleToggleProjectsModal = () => {
+	  showProjectsModal = !showProjectsModal
+	}
+	let showPublicationsModal = false;
+	const handleTogglePublicationsModal = () => {
+	  showPublicationsModal = !showPublicationsModal
+	}
 </script>
 
 <div class="w-screen h-20 flex font-light px-10 border-b border-black items-center justify-between">
-	<div class="hidden md:flex space-x-6 items-center">
-		<a href="/projects">
-			<div>Projects</div>
-		</a>
-		<a href="/publications">
-			<div>Publications</div>
-		</a>
+	<div class="hidden md:flex space-x-6 items-center h-full">
+		<button class="h-full px-4" on:click={() => handleToggleProjectsModal()}>Projects</button>
+		<Modal title="Coming Soon!" open={showProjectsModal} on:close={() => handleToggleProjectsModal()}>
+			<svelte:fragment slot="body">
+				Work in progress...
+			</svelte:fragment>
+		</Modal>
+		<button class="h-full px-4" on:click={() => handleTogglePublicationsModal()}>Publications</button>
+		<Modal title="Coming Soon!" open={showPublicationsModal} on:close={() => handleTogglePublicationsModal()}>
+			<svelte:fragment slot="body">
+				Work in progress...
+			</svelte:fragment>
+		</Modal>
 	</div>			
 	<div class="font-bold text-2xl text-center">
 		<a href="/">NMOSS</a>
 		<div class="font-normal text-sm"><span class="font-bold">N</span>etworking, <span class="font-bold">M</span>icroarchitectural, <span class="font-bold">O</span>perating system <span class="font-bold">S</span>ecurity research group @ <span class="font-bold">S</span>UST</div>
 	</div>
-	<div class="hidden md:flex space-x-6 items-center">
-		<a href="/">
-			<div>About NMOSS</div>
-		</a>
-		<a href="/people">
-			<div>People</div>
-		</a>
-		<a href="/teams">
-			<div>Teams</div>
-		</a>
-		<div class="font-light">
-			<button on:click={() => handleToggleModal()}>Contact</button><Modal
-  title="Contact us!"
-  open={showModal}
-  on:close={() => handleToggleModal()}
->
-  <svelte:fragment slot="body">
-    If you’re interested in our work and want to collaborate with us feel free to email us at - <a href="mailto:irfannafizislive@gmail.com" class="text-blue-400">irfannafizislive@gmail.com</a>
-  </svelte:fragment>
-</Modal>
-</div>
+	<div class="hidden md:flex items-center h-full">
+		<div class="h-full px-4 flex items-center">
+			<a href="/">
+				About NMOSS
+			</a>
+		</div>
+		<div class:bg-gray-300={param==='/people'} class="h-full px-4 flex items-center">
+			<a href="/people">
+				People
+			</a>
+		</div>
+		<div class:bg-gray-300={param==='/teams'} class="h-full px-4 flex items-center">
+			<a href="/teams">
+				Teams
+			</a>
+		</div>
+		<div class="font-light h-full px-4 flex items-center">
+			<button on:click={() => handleToggleModal()}>Contact</button>
+			<Modal title="Contact us!" open={showModal} on:close={() => handleToggleModal()}>
+				<svelte:fragment slot="body">
+					If you’re interested in our work and want to collaborate with us feel free to email us at - <a href="mailto:irfannafizislive@gmail.com" class="text-blue-400">irfannafizislive@gmail.com</a>
+				</svelte:fragment>
+			</Modal>
+		</div>
 	</div>
 	<button class="md:hidden" on:click={handleClick}>
 		<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -57,12 +76,6 @@
 	<button class="w-full flex items-center" on:click={handleClick}>
 		<div class="w-full flex flex-col items-center text-center py-2">
 	
-			<a href="/projects">
-				<div class="py-2">Projects</div>
-			</a>
-			<a href="/publications">
-				<div class="py-2">Publications</div>
-			</a>
 			<a href="/">
 				<div class="py-2">About NMOSS</div>
 			</a>
@@ -71,6 +84,12 @@
 			</a>
 			<a href="/teams">
 				<div class="py-2">Teams</div>
+			</a>
+			<a href="/projects">
+				<div class="py-2">Projects</div>
+			</a>
+			<a href="/publications">
+				<div class="py-2">Publications</div>
 			</a>
 			<div class="font-light">
 				<button on:click={() => handleToggleModal()}>Contact</button><Modal
