@@ -1,6 +1,17 @@
 <script>
     let people = [
         {
+            'name': 'Zeshan Ahmed Nobin',
+            'role': 'Organizer',
+            'speciality': 'Team lead, Unit A',
+            'about': 'I along with my teammates formed the SUST (Shahjalal University of Science and Technology) Security Research Group. The purpose of this group is to bring people with similar interests together and collaborate on fascinating security-related research and projects. I also lead the Unit A (computer Architecture) of SUST Security Research Group. ',
+            'photo': 'nabin.jpg',
+            'interests': 'Microarchitectural security, Computer Architecture',
+            'linkedin': 'https://www.linkedin.com/in/zeshanahmednobin/',
+            'gmail': 'zeshanahmednobin@gmail.com',
+            'github': 'https://github.com/NobinPegasus'
+        },
+        {
             'name': 'Mufassir Ahmad Chowdhury',
             'speciality': 'Team lead, Unit N',
             'about': 'me is a noob guy doing noob things. me has pa$$ion in security. Me knows less but me be study. ',
@@ -9,16 +20,6 @@
             'linkedin': 'https://www.linkedin.com/in/mufassir-chowdhury/',
             'gmail': 'mac22214u@gmail.com',
             'github': 'https://github.com/Mufassir-Chowdhury'
-        },
-        {
-            'name': 'Zeshan Ahmed Nobin',
-            'speciality': 'Team lead, Unit A',
-            'about': 'I along with my teammates formed the SUST (Shahjalal University of Science and Technology) Security Research Group. The purpose of this group is to bring people with similar interests together and collaborate on fascinating security-related research and projects. I also lead the Unit A (computer Architecture) of SUST Security Research Group. ',
-            'photo': 'nabin.jpg',
-            'interests': 'Microarchitectural security, Computer Architecture',
-            'linkedin': 'https://www.linkedin.com/in/zeshanahmednobin/',
-            'gmail': 'zeshanahmednobin@gmail.com',
-            'github': 'https://github.com/NobinPegasus'
         },
         {
             'name': 'Imtiaz Kabir Iftu',
@@ -50,9 +51,26 @@
             'gmail': 'almubinnabil@gmail.com'
         }
     ]
+    // method for getting data from google sheet via sheet id
+    function getData(sheetId) {
+        return fetch(`https://spreadsheets.google.com/feeds/list/${sheetId}/od6/public/values?alt=json`)
+            .then(response => response.json())
+            .then(data => data.feed.entry.map(entry => ({
+                console.log(entry)
+            })));
+    }
+    function load(){
+        getData("1KARDy_ZPtP3MZLVVc6ZSwfx3MJg4FvrhunMR0khBltg").then(data => {
+            // people = data;
+            // console.log(people);
+        });
+    }
 </script>
 
 <main class="w-full p-16 ">
+    <button on:click={load}>
+        load
+    </button>
     <div class="text-4xl font-semibold">People</div>
     <!-- <section class="md:w-1/3">
         <div class="font-bold text-4xl py-8">
@@ -71,6 +89,11 @@
                     <div class="text-xl font-semibold ">
                         {person.name}
                     </div>
+                    {#if person.role}
+                    <div class="text-lg font-semibold text-red-600">
+                        {person.role}
+                    </div>
+                    {/if}
                     <div class="text-lg font-semibold text-blue-600">
                         {person.speciality}
                     </div>

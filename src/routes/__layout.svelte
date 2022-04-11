@@ -39,11 +39,11 @@
 		</Modal>
 	</div>			
 	<div class="font-bold text-2xl text-center">
-		<a href="/">NMOSS {param}</a>
+		<a href="/">NMOSS</a>
 		<div class="font-normal text-sm"><span class="font-bold">N</span>etworking, <span class="font-bold">M</span>icroarchitectural, <span class="font-bold">O</span>perating system <span class="font-bold">S</span>ecurity research group @ <span class="font-bold">S</span>UST</div>
 	</div>
 	<div class="hidden md:flex items-center h-full">
-		<div class="h-full px-4 flex items-center">
+		<div class:bg-gray-300={param==='/'} class="h-full px-4 flex items-center">
 			<a href="/">
 				About NMOSS
 			</a>
