@@ -12,16 +12,6 @@
             'github': 'https://github.com/NobinPegasus'
         },
         {
-            'name': 'Mufassir Ahmad Chowdhury',
-            'speciality': 'Team lead, Unit N',
-            'about': 'me is a noob guy doing noob things. me has pa$$ion in security. Me knows less but me be study. ',
-            'photo': 'mufassir-2.png',
-            'interests': 'Networking, Systems',
-            'linkedin': 'https://www.linkedin.com/in/mufassir-chowdhury/',
-            'gmail': 'mac22214u@gmail.com',
-            'github': 'https://github.com/Mufassir-Chowdhury'
-        },
-        {
             'name': 'Imtiaz Kabir Iftu',
             'speciality': 'Team lead, Unit O',
             'about': 'I am interested in low-level security. I am also a member of unit O (Operating System Security) and unit A (Microarchitectural Security). I am currently studying about operating systems security.',
@@ -49,28 +39,21 @@
             'photo': 'nabil.jpg',
             'interests': 'Operating system, Blockchain ',
             'gmail': 'almubinnabil@gmail.com'
+        },
+        {
+            'name': 'Mufassir Ahmad Chowdhury',
+            'speciality': 'Team lead, Unit N',
+            'about': 'me is a noob guy doing noob things. me has pa$$ion in security. Me knows less but me be study. ',
+            'photo': 'mufassir-2.png',
+            'interests': 'Networking, Systems',
+            'linkedin': 'https://www.linkedin.com/in/mufassir-chowdhury/',
+            'gmail': 'mac22214u@gmail.com',
+            'github': 'https://github.com/Mufassir-Chowdhury'
         }
     ]
-    // method for getting data from google sheet via sheet id
-    function getData(sheetId) {
-        return fetch(`https://spreadsheets.google.com/feeds/list/${sheetId}/od6/public/values?alt=json`)
-            .then(response => response.json())
-            .then(data => data.feed.entry.map(entry => ({
-                console.log(entry)
-            })));
-    }
-    function load(){
-        getData("1KARDy_ZPtP3MZLVVc6ZSwfx3MJg4FvrhunMR0khBltg").then(data => {
-            // people = data;
-            // console.log(people);
-        });
-    }
 </script>
 
 <main class="w-full p-16 ">
-    <button on:click={load}>
-        load
-    </button>
     <div class="text-4xl font-semibold">People</div>
     <!-- <section class="md:w-1/3">
         <div class="font-bold text-4xl py-8">
