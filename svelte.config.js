@@ -7,6 +7,9 @@ const config = {
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
+		},
+		browser: {
+			router: false
 		}
 	}
 };

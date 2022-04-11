@@ -2,6 +2,7 @@
 	import '../app.css';
 	import Modal from '../lib/Modal.svelte';
     import { page } from '$app/stores';
+	export const router = false;
 	let param = $page.url.pathname;
 	let menu = false;
 	function handleClick() {
@@ -38,7 +39,7 @@
 		</Modal>
 	</div>			
 	<div class="font-bold text-2xl text-center">
-		<a href="/">NMOSS</a>
+		<a href="/">NMOSS {param}</a>
 		<div class="font-normal text-sm"><span class="font-bold">N</span>etworking, <span class="font-bold">M</span>icroarchitectural, <span class="font-bold">O</span>perating system <span class="font-bold">S</span>ecurity research group @ <span class="font-bold">S</span>UST</div>
 	</div>
 	<div class="hidden md:flex items-center h-full">
