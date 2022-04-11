@@ -24,7 +24,10 @@
                 Unit O
             </h1>
             <p class="mt-2 text-gray-600 text-sm">
-                Operating systems are in charge of managing hardware resources. This makes them a prime location for improving security as well as a fruitful target.
+                Operating System Team - Focusing on malware attack that effect Linux based Operating System.
+                <br>
+                Current Ongoing Work: Summarizing paper on time execution attack,studying about 
+                Physical memory, Virtual memory and File descriptor Table. 
             </p>
         </div>
     </div>

@@ -23,6 +23,16 @@
     
         },
         {
+            'name': 'Mufassir Ahmad Chowdhury',
+            'speciality': 'Team lead, Unit N',
+            'about': 'I am a CS undergrad student here at SUST. I was a tech enthusiast from a very young age but used to get lost in the rabit holes of the world of technogoloy. Computer security always fascinated me and I decided to join SUST to pursue my dream. I am currently learning Network security and Operating systems and am the leader on unit N (Network team) at NMOSS. Looking forward to make impactful contributions to the world and I can\'t wait for it!',
+            'photo': 'mufassir-2.png',
+            'interests': 'Network Security, Operating Systems',
+            'linkedin': 'https://www.linkedin.com/in/mufassir-chowdhury/',
+            'gmail': 'mac22214u@gmail.com',
+            'github': 'https://github.com/Mufassir-Chowdhury'
+        },
+        {
             'name': 'Irfan Nafiz Shahan',
             'speciality': 'Member, Unit A',
             'about': 'I am an undergraduate student of Electrical and Electronic Engineering in Shahjalal University of Science and Technology. I am enthusiastic about multiple fields, driven and conscientious about my responsibilities and yearn to use my knowledge to do whatever good I can do. Currently involved in multiple projects and responsibilities, including being a part of Unit A of NMOSS Labs. I plan to conduct my thesis in Computer Architecture and Hardware Security.',
@@ -39,31 +49,12 @@
             'photo': 'nabil.jpg',
             'interests': 'Operating system, Blockchain ',
             'gmail': 'almubinnabil@gmail.com'
-        },
-        {
-            'name': 'Mufassir Ahmad Chowdhury',
-            'speciality': 'Team lead, Unit N',
-            'about': 'me is a noob guy doing noob things. me has pa$$ion in security. Me knows less but me be study. ',
-            'photo': 'mufassir-2.png',
-            'interests': 'Networking, Systems',
-            'linkedin': 'https://www.linkedin.com/in/mufassir-chowdhury/',
-            'gmail': 'mac22214u@gmail.com',
-            'github': 'https://github.com/Mufassir-Chowdhury'
         }
     ]
 </script>
 
 <main class="w-full p-16 ">
     <div class="text-4xl font-semibold">People</div>
-    <!-- <section class="md:w-1/3">
-        <div class="font-bold text-4xl py-8">
-            About US
-        </div>
-        <div class="text-gray-500">
-            We’re a group enthusiastic about multiple fields, but focusing primarily on security research. Security research is a niche subject not commonly pursued in Bangladesh, we plan to take it mainstream and conduct meaningful high quality publications.
-            If you’re interested in our work and want to collaborate with us feel free to email us at - irfannafizislive@gmail.com            
-        </div>
-    </section> -->
     <section class="md:w-2/3 mx-8 divide-y">   
         {#each people as person}
             <div class="py-8 flex flex-col md:flex-row items-center">
@@ -80,7 +71,7 @@
                     <div class="text-lg font-semibold text-blue-600">
                         {person.speciality}
                     </div>
-                    <div class="text-gray-500 line-clamp-6">
+                    <div class="text-gray-500">
                         {person.about}
                     </div>
                     <div class="my-2 text-md font-semibold text-indigo-900">
