@@ -46,19 +46,19 @@
             'name': 'Al-Mubin Khan Nabil',
             'speciality': 'Member, Unit O',
             'about': 'Im the sort of person whos always looking for a challenge. A challenging road with a meaningful goal is what fuels the soul for me. This pursuit of challenge is what introduced me to Computer science when i was just 11years old through the shelf of computer related books in our school library. The spark that lit at that time, the thrill i found at that time still glows so bright as the first day. This unquenched thirst through the years has led me to explore all sorts of interesting branches of computer science, from game engines, physics engines, networking to robotics, simulation, 3d visualizations and the list goes on, each journey leaving behind colorful new memories to showcase in my cupboard, each journey taking me one step closer to my dream, making me just a little bit more prepared. But throughout every journey Ive always felt a lack, a blistering remoteness from the bigger community of similar minded people,  isolated from the opportunities of the world ahead. So i promised to myself to never let another opportunity pass by, to come out of the shell i used to live in and interact with the world as fluently as i can. After 3 years of that promise, I am happy that i took the decision and my communication skills have escalated dramatically. But i dont plan to just stop there, Its time i introduce myself to the wide world. I have this dream i started cultivating from my high school days, to live in the midst of an enthusiast community, to work with a team full of people who also desperately seek challenge to fuel their soul, to work tirelessly toward something that i can show to the world and proudly say, behold the mark we leave in your lives to remember us by when we grow old and fragile. ',
-            'photo': 'nabil.jpg',
+            'photo': 'nabil.PNG',
             'interests': 'Operating system, Blockchain ',
             'gmail': 'almubinnabil@gmail.com'
         }
     ]
 </script>
 
-<main class="w-full p-16 ">
+<main class="w-full p-4 md:p-16 ">
     <div class="text-4xl font-semibold">People</div>
-    <section class="md:w-2/3 mx-8 divide-y">   
+    <section class="md:mx-8 divide-y">   
         {#each people as person}
             <div class="py-8 flex flex-col md:flex-row items-center">
-                <img class=" shadow-xl py-4 md:p-0 h-60 md:h-80 w-60 object-cover rounded-lg" src={person.photo} alt="thumbnail">
+                <img class=" shadow-xl my-4 md:p-0 h-60 md:h-80 w-60 object-cover rounded-lg" src={person.photo} alt="thumbnail">
                 <div class=" px-6 w-fit">
                     <div class="text-xl font-semibold ">
                         {person.name}
