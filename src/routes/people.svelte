@@ -4,7 +4,7 @@
             'name': 'Zeshan Ahmed Nobin',
             'role': 'Organizer',
             'speciality': 'Team lead, Unit A',
-            'about': 'I along with my teammates formed the SUST (Shahjalal University of Science and Technology) Security Research Group. The purpose of this group is to bring people with similar interests together and collaborate on fascinating security-related research and projects. I also lead the Unit A (computer Architecture) of SUST Security Research Group. ',
+            'about': 'I along with my teammates formed the NMOSS. I also lead the Unit A (computer Architecture) of NMOSS. I\'m really fascinated by the pipelined world of microprocessors. I\'m currently exploring microarchitectural attacks and defenses for my bachelor\'s thesis. I have previous experience of working on an NLP research project regarding Bangla paraphrase identification.',
             'photo': 'nabin.jpg',
             'interests': 'Microarchitectural security, Computer Architecture',
             'linkedin': 'https://www.linkedin.com/in/zeshanahmednobin/',
