@@ -10,16 +10,16 @@
 	}
 	
 	let showModal = false;
-	const handleToggleModal = () => {
+	function handleToggleModal() {
 	  showModal = !showModal
 	}
 	let showProjectsModal = false;
-	const handleToggleProjectsModal = () => {
-	  showProjectsModal = !showProjectsModal
+	function handleToggleProjectsModal(){
+		showProjectsModal = !showProjectsModal
 	}
 	let showPublicationsModal = false;
-	const handleTogglePublicationsModal = () => {
-	  showPublicationsModal = !showPublicationsModal
+	function handleTogglePublicationsModal(){
+		showPublicationsModal = !showPublicationsModal
 	}
 </script>
 
@@ -74,9 +74,9 @@
 	</button>
 </div>
 {#if menu }
-	<button class="w-full flex items-center" on:click={handleClick}>
-		<div class="w-full flex flex-col items-center text-center py-2">
-	
+<div class="w-full flex flex-col items-center text-center py-2">
+
+		<button class="w-full flex flex-col items-center" on:click={handleClick}>
 			<a href="/">
 				<div class="py-2">About NMOSS</div>
 			</a>
@@ -86,28 +86,28 @@
 			<a href="/teams">
 				<div class="py-2">Teams</div>
 			</a>
-			<button class="h-full py-2" on:click={() => handleToggleProjectsModal()}>Projects</button>
-			<Modal title="Coming Soon!" open={showProjectsModal} on:close={() => handleToggleProjectsModal()}>
+		</button>
+		<button class="h-full py-2" on:click={handleToggleProjectsModal}>Projects</button>
+		<Modal title="Coming Soon!" open={showProjectsModal} on:close={() => handleToggleProjectsModal()}>
+			<svelte:fragment slot="body">
+				Work in progress...
+			</svelte:fragment>
+		</Modal>
+		<button class="h-full py-2" on:click={handleTogglePublicationsModal}>Publications</button>
+		<Modal title="Coming Soon!" open={showPublicationsModal} on:close={() => handleTogglePublicationsModal()}>
+			<svelte:fragment slot="body">
+				Work in progress...
+			</svelte:fragment>
+		</Modal>
+		<div class="font-light">
+			<button class="py-2" on:click={handleToggleModal}>Contact</button>
+			<Modal title="Contact us!" open={showModal} on:close={handleToggleModal}>
 				<svelte:fragment slot="body">
-					Work in progress...
+					If you’re interested in our work and want to collaborate with us feel free to email us at - <a href="mailto:irfannafizislive@gmail.com" class="text-blue-400">irfannafizislive@gmail.com</a>
 				</svelte:fragment>
 			</Modal>
-			<button class="h-full py-2" on:click={() => handleTogglePublicationsModal()}>Publications</button>
-			<Modal title="Coming Soon!" open={showPublicationsModal} on:close={() => handleTogglePublicationsModal()}>
-				<svelte:fragment slot="body">
-					Work in progress...
-				</svelte:fragment>
-			</Modal>
-			<div class="font-light">
-				<button class="py-2" on:click={() => handleToggleModal()}>Contact</button>
-				<Modal title="Contact us!" open={showModal} on:close={() => handleToggleModal()}>
-					<svelte:fragment slot="body">
-						If you’re interested in our work and want to collaborate with us feel free to email us at - <a href="mailto:irfannafizislive@gmail.com" class="text-blue-400">irfannafizislive@gmail.com</a>
-					</svelte:fragment>
-				</Modal>
-			</div>
 		</div>
-	</button>
+</div>
 { /if }
 <main>
 	<slot />
