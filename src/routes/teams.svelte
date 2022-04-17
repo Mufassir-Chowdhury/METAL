@@ -10,9 +10,9 @@
                 Unit A
             </h1>
             <p class="mt-2 text-gray-600 text-sm">
-                Architectural Security Team - Focusing generally on Transient Side Channel Attacks, e.g. RowHammer, Meltdown and Spectre.
+                Computer Architectural Security Team - Focusing generally on transient side-channel attacks, e.g. RowHammer, Meltdown and Spectre.
                 <br>
-                Current Ongoing Work: Summarizing Papers on Microarchitectural Attacks, Conducting Side-Channel Attacks on Microcontrollers, Participating in Side-Channel CTFs.
+                Current Ongoing Work: Summarizing papers on microarchitectural attacks, conducting side-channel attacks on microcontrollers, participating in side-channel CTFs.
             </div>
     </div>
     <div class="flex  flex-col md:flex-row w-full my-4 bg-white shadow-lg rounded-lg overflow-hidden">
@@ -24,10 +24,10 @@
                 Unit O
             </h1>
             <p class="mt-2 text-gray-600 text-sm">
-                Operating System Team - Focusing on malware attack that effect Linux based Operating System.
+                Operating System Security Team - Focusing on malware attack that effect Linux based Operating System.
                 <br>
-                Current Ongoing Work: Summarizing paper on time execution attack,studying about 
-                Physical memory, Virtual memory and File descriptor Table. 
+                Current Ongoing Work: Summarizing paper on time execution attack, studying about 
+                physical memory, virtual memory and file descriptor table. 
             </p>
         </div>
     </div>
