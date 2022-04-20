@@ -41,7 +41,9 @@
                 Unit N
             </h1>
             <p class="mt-2 text-gray-600 text-sm">
-                Everything in this modern world is connected via Internet and started to form a very complex mechanism. This complexity has implications for security.             
+                Network Security Team - Focusing on wireless network security.
+                <br>
+                Current work includes studying and implementing security protocols for wireless networks.    
             </p>
         </div>
     </div>
