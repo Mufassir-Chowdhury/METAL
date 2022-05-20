@@ -14,7 +14,7 @@
         {
             'name': 'Imtiaz Kabir Iftu',
             'speciality': 'Team lead, Unit O',
-            'about': 'I am interested in low-level security. I am also a member of unit O (Operating System Security) and unit A (Microarchitectural Security). I am currently studying about operating systems security.',
+            'about': 'I am interested in low-level security. I am the team leader of unit O (Operating System Security) and also a member of unit A (Microarchitectural Security). I am currently studying about operating systems security.',
             'photo': 'iftu.jpg',
             'interests': 'Microarchitectural Security and Operating System Security. ',
             'linkedin': 'https://www.linkedin.com/in/imtiaz-kabir-iftu-042b7b225/',
