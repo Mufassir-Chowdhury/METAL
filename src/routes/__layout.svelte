@@ -37,6 +37,11 @@
 				Work in progress...
 			</svelte:fragment>
 		</Modal>
+		<div class:bg-gray-300={param==='/CTF'} class="h-full px-4 flex items-center">
+			<a href="/CTF">
+				CTF
+			</a>
+		</div>
 	</div>			
 	<div class="font-bold lg:text-2xl text-center">
 		<a href="/">NMOSS</a>
