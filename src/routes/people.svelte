@@ -38,7 +38,7 @@
             'speciality': 'Member, Unit A, CTF Lead',
             'about': 'I\'ve been writing code, breaking code, abandoning projects and ruining my sleep schedule since high-school. Currently I\'m a sophomore studying Electrical and Electronic Engineering in Shahjalal University of Science and Technology. I study Cryptography and MicroArchitectural Attacks in my spare time, and actively lead ‘NMOSS’ in ongoing international hacking CTFs. I\'m very high in trait conscientiousness, and love to produce complete, high quality work. I plan on conducting meaningful publications/projects in CySec and MLSec in the near future.',
             'photo': 'irfan-2.jpg',
-            'interests': 'Micro-Architectural Security, Hardware Security, Computer Architecture, Cryptography',
+            'interests': 'Ooooo shiny... nmoss{well_web_isnt_so_hard_is_it}, Micro-Architectural Security, Hardware Security, Computer Architecture, Cryptography',
             'linkedin': 'https://www.linkedin.com/in/irfannafizshahan/',
             'gmail': 'irfan55@student.sust.edu',
             'github': 'https://github.com/IrfanNafiz'
