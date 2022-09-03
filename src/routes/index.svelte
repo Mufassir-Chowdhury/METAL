@@ -15,6 +15,9 @@
 		We’re a group, enthusiastic about multiple fields, but focusing primarily on our common interest in security research. Security research is a niche subject not commonly pursued in Bangladesh, we plan to take it mainstream and conduct meaningful high quality projects and publications.
 
 	</div>
+	<div class="text-center md:w-5/12 p-8">
+		Join the "Introduction to CTF" workshop's <a href="https://forms.gle/rTu9a8tGt1VgzZFE9" class="text-blue-400">Beginner CTF Challenge!</a>
+	</div>
 </section>
 
 
