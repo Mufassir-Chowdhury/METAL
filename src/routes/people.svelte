@@ -40,7 +40,7 @@
             'photo': 'irfan-2.jpg',
             'interests': 'Micro-Architectural Security, Hardware Security, Computer Architecture, Cryptography',
             'linkedin': 'https://www.linkedin.com/in/irfannafizshahan/',
-            'gmail': 'irfannafizislive@gmail.com',
+            'gmail': 'irfan55@student.sust.edu',
             'github': 'https://github.com/IrfanNafiz'
         },
         {
