@@ -54,16 +54,16 @@
             'github': 'https://github.com/NirobNabil',
             'facebook': 'https://www.facebook.com/almubin.nabil/'
         },
-        {
-            'name': 'Ad-Deen Mahbub',
-            'speciality': 'Member', <!-- Need to add unit! -->
-            'about': 'To be updated.', <!-- Need to update! -->
-            'photo': 'deen.PNG', <!-- Need to update ppic! -->
-            'interests': 'ML-Sec, ROS-Sec, Hardware Security'
-            'gmail': 'almubinnabil@gmail.com', <!-- Need to update! -->
-            'github': 'https://github.com/NirobNabil', <!-- Need to update! -->
-            'facebook': 'https://www.facebook.com/almubin.nabil/' <!-- Need to update! -->
-        },
+//         {
+//             'name': 'Ad-Deen Mahbub',
+//             'speciality': 'Member', <!-- Need to add unit! -->
+//             'about': 'To be updated.', <!-- Need to update! -->
+//             'photo': 'deen.PNG', <!-- Need to update ppic! -->
+//             'interests': 'ML-Sec, ROS-Sec, Hardware Security'
+//             'gmail': 'almubinnabil@gmail.com', <!-- Need to update! -->
+//             'github': 'https://github.com/NirobNabil', <!-- Need to update! -->
+//             'facebook': 'https://www.facebook.com/almubin.nabil/' <!-- Need to update! -->
+//         },
     ]
 </script>
 
