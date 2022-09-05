@@ -53,6 +53,13 @@
             'github': 'https://github.com/NirobNabil',
             'facebook': 'https://www.facebook.com/almubin.nabil/'
         }
+        {
+            'name': 'Ad-Deen Mahbub',
+            'speciality': 'Member',
+            'about': 'To be updated.',
+            'photo': 'deen.PNG',
+            'interests': 'ML-Sec, ROS-Sec, Hardware Security',
+        }
     ]
 </script>
 
