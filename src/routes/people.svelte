@@ -35,7 +35,8 @@
         },
         {
             'name': 'Irfan Nafiz Shahan',
-            'speciality': 'Member, Unit A, CTF Lead',
+            'role': 'Asst. Organizer, CTF Lead',    
+            'speciality': 'Member, Unit A',
             'about': 'I\'ve been writing code, breaking code, abandoning projects and ruining my sleep schedule since high-school. Currently I\'m a sophomore studying Electrical and Electronic Engineering in Shahjalal University of Science and Technology. I study Cryptography and MicroArchitectural Attacks in my spare time, and actively lead ‘NMOSS’ in ongoing international hacking CTFs. I\'m very high in trait conscientiousness, and love to produce complete, high quality work. I plan on conducting meaningful publications/projects in CySec and MLSec in the near future.',
             'photo': 'irfan-2.jpg',
             'interests': 'Micro-Architectural Security, Hardware Security, Computer Architecture, Cryptography',
@@ -52,13 +53,16 @@
             'gmail': 'almubinnabil@gmail.com',
             'github': 'https://github.com/NirobNabil',
             'facebook': 'https://www.facebook.com/almubin.nabil/'
-        }
+        },
         {
             'name': 'Ad-Deen Mahbub',
-            'speciality': 'Member',
-            'about': 'To be updated.',
-            'photo': 'deen.PNG',
-            'interests': 'ML-Sec, ROS-Sec, Hardware Security',
+            'speciality': 'Member', <!-- Need to add unit! -->
+            'about': 'To be updated.', <!-- Need to update! -->
+            'photo': 'deen.PNG', <!-- Need to update ppic! -->
+            'interests': 'ML-Sec, ROS-Sec, Hardware Security'
+            'gmail': 'almubinnabil@gmail.com', <!-- Need to update! -->
+            'github': 'https://github.com/NirobNabil', <!-- Need to update! -->
+            'facebook': 'https://www.facebook.com/almubin.nabil/' <!-- Need to update! -->
         }
     ]
 </script>
@@ -134,5 +138,3 @@
         {/each}
     </section>
 </main>
-
-<!-- Ooooo shiny... nmoss{well_web_isnt_so_hard_is_it} -->
