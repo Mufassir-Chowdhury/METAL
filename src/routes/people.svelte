@@ -63,7 +63,7 @@
             'gmail': 'almubinnabil@gmail.com', <!-- Need to update! -->
             'github': 'https://github.com/NirobNabil', <!-- Need to update! -->
             'facebook': 'https://www.facebook.com/almubin.nabil/' <!-- Need to update! -->
-        }
+        },
     ]
 </script>
 
